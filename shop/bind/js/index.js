@@ -1,0 +1,1 @@
+"use strict";define(["mui"],function(t){t.ajax("/api/shoplist",{data:{},dataType:"json",type:"get",timeout:1e4,success:function(t){console.log(t)}})});
